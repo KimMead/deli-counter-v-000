@@ -16,4 +16,5 @@ line(katz_deli)
 
 def take_a_number(array, name)
   array.push(name)
+  "Welcome, #{name}.  You are number #{index + 1} in line."
 end
