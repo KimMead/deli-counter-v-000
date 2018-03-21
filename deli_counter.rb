@@ -16,6 +16,7 @@ line(katz_deli)
 
 def take_a_number(array, name)
   index = 0
+  array.empty? == true
   array.push(name)
   array.each_with_index do |name, index|
   "Welcome, #{name}.  You are number #{index + 1} in line."
