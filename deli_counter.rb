@@ -14,6 +14,6 @@ end
 
 line(katz_deli)
 
-def take_a_number(array)
+def take_a_number(array, name)
   array.push
 end
