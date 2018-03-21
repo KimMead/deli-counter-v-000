@@ -5,9 +5,11 @@ def line(array)
   else array.length > 0
     index = 0
     message = "The line is currently: "
-    array.each_with_index { |name, index| puts message += "#{index + 1}. #{name}" }
+    array.each_with_index do |name, index| 
+      message += "#{index + 1}. #{name}" 
+  end 
       puts "#{message}"
-    end
+  end
 end
 
 line(katz_deli)
