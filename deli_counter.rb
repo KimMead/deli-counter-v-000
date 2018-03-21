@@ -15,5 +15,5 @@ end
 line(katz_deli)
 
 def take_a_number(array, name)
-  array.push
+  array.push(name)
 end
