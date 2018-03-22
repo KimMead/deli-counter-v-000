@@ -20,7 +20,7 @@ def take_a_number(array, name)
   puts "Welcome, #{name}. You are number #{index + 1} in line."
 end
 
-def now_serving(array, name)
+def now_serving(array)
   if array.empty? == true
     puts "There is nobody waiting to be served!"
   else array.empty? == false
